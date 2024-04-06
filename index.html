@@ -3,4 +3,27 @@
   <head>
     <title>clicker</title>
   </head>
+  <style>
+    .clickzone{
+      width: 35%;
+      height: 100vh;
+    }
+    #click{
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      background-color: gray;
+    }
+  </style>
+  <body>
+    <div class="clickzone">
+      <div class="clickline">
+        <p id="clickdisplay">money: infinity</p>
+        <button id="click" onclick="click();">
+          click
+        </button>
+      </div>
+    </div>  
+    <script src="app.js"></script>
+  </body>
 </html>
